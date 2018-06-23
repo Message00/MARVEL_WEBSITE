@@ -1,39 +1,55 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <title>电影</title>
 <meta charset="utf-8">
 <link href="./favicon.ico" rel="shortcut icon" type="image/x-icon">
 <style>
-html,body{
-	width:100%;
-	height:100%;
-}
+<!-- html,body{ -->
+	<!-- width:100%; -->
+	<!-- height:100%; -->
+<!-- } -->
 
 .head_list{
 	width:15%;
 }
 
-.td1{
-	border-left:1px solid black;
-	border-right:1px solid black;
+
+table.ttwo td{
+	font-size:23px;
 }
 
-table.cl img{
-	width:200px;
-	height:300px;
+
+
+.marvel{
+	text-align:left;
+	padding-top:60px;
 }
 
-table.cl td{
-	padding-top:10px;
-	padding-bottom:10px;
-	border-top:1px dotted black;
-	border-bottom:0px dotted black;
+.studio{
+	text-align:right;
+	padding-top:40px;
 }
 
-table.cl td{
-	font-color:black;
-	font-size:21px;
+.secondleft{
+	width:30%;
+	padding-top:40px;
+	padding-left:0;
+}
+
+.secondright{
+	width:50%;
+	padding-right:10%;
+	padding-top:40px;
+	text-align:left;
+}
+
+td.marvel img{
+	width:300px;
+}
+
+td.studio img{
+	width:300px;
 }
 
 </style>
@@ -57,11 +73,16 @@ table.cl td{
 	</tr>
 </table>
 
-<div style="background-color:#FFE4B5;height:2px;width:100%;overflow:hidden;"></div>
-<table border="0" class="td1 cl" width=90% cellspacing="0" cellpadding="0" style="margin:auto;text-align:center;">
+<table border="0" class="ttwo cl" width=90% cellspacing="0" cellpadding="0" style="margin:auto;text-align:center;">
 	<tr>
-		<td style="border-top:0px solid white;" width=20%><img src="./image/avengers3.jpg"></td>
-		<td colspan=2 style="text-align:left;border-top:0px solid white;">
+		<td colspan=2 class="marvel" style="padding-top:10px">
+		<img src="./image/marvel.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/avengers3.jpg" /></td>
+		<td class="secondright">
 			复仇者联盟3：无限战争 Avengers: Infinity War<br>
 			大陆上映时间:2018-05-11<br><br>		漫威电影宇宙10周年的历史性集结，将为影迷们带来史诗版的终极对决。面对灭霸突然发起的闪电袭击，复仇者联盟及其所有超级英雄盟友必须全力以赴，才能阻止他对全宇宙造成毁灭性的打击。<br>
 			非常精彩的一部电影，看紫薯吊打众英雄。
@@ -69,16 +90,40 @@ table.cl td{
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/blackpanter.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan=2 class="marvel">
+		<img src="./image/marvel.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/blackpanter.jpg" /></td>
+		<td class="secondright">
 			黑豹 Black Panther<br>
 			大陆上映时间:2018-03-09<br><br>		特查拉在其父亲——前瓦坎达国王去世之后，回到了这个科技先进但与世隔绝的非洲国家，继任成为新一任“黑豹”及国王。当旧敌重现时，作为“黑豹”及国王的特查拉身陷两难境地，眼看着瓦坎达及全世界陷于危难之中。面对背叛与危险，这位年轻的国王必须联合同盟， 释放“黑豹”全部力量，奋力捍卫他的人民和国土。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/thor3.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan=2 class="marvel">
+		<img src="./image/marvel.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/thor3.jpg" /></td>
+		<td class="secondright">
 			雷神3：诸神黄昏 Thor: Ragnarok<br>
 			大陆上映时间:2017-11-03<br><br>		
 			在“索科维亚战役”两年后，雷神索尔识破了洛基的伪装，辗转找到了被放逐到地球的奥丁。然而垂死的奥丁却告知两个儿子，“诸神的黄昏”已经开始，曾遭到奥丁封禁的死亡女神，即将重返阿斯加德。与海拉的初次对决中，索尔失去了雷神之锤，他和洛基也被打落至混乱不堪的萨卡星。在萨卡的决斗场上，索尔重逢失踪许久的绿巨人，也见到了曾从海拉魔爪下逃得一生的女武神。历经千辛万苦，索尔和战友们重返阴云密布的阿斯加德，去正视这注定要到来的“诸神的黄昏”......
@@ -86,24 +131,60 @@ table.cl td{
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/spiderman.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+
+		<tr>
+		<td colspan=2 class="marvel">
+		<img src="./image/marvel.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/spiderman.jpg" /></td>
+		<td class="secondright">
 			蜘蛛侠：英雄归来 Spider-Man: Homecoming<br>
 			大陆上映时间:2017-09-08<br><br>			彼得帕克在内战后受到了钢铁侠托尼斯塔克的赏识，表面上，彼得进入托尼的公司成为了一名实习生，实际上，他和复仇者联盟的成员们一起接受了各种各样的训练。托尼虽然欣赏彼得的勇敢和正直，却并不认为他目前已经拥有加入复联的实力，他派出了特工哈皮暗中观察，这让十分想证明自己的彼得感到万分焦躁。 故事开始了......
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/yinhehuweidui2.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan=2 class="marvel">
+		<img src="./image/marvel.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/yinhehuweidui2.jpg" /></td>
+		<td class="secondright">
 			银河护卫队2 Guardians of the Galaxy Vol. 2<br>
 			大陆上映时间:2017-05-05<br><br>				火箭浣熊偷走了大祭司阿耶莎的能量电池，包括星爵、卡魔拉、德拉克斯在内的一行人遭到了后者派出的舰队的袭击。一个神秘人物乘坐着飞船救下了银河护卫队的众人......
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/doctorstrange.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/doctorstrange.jpg" /></td>
+		<td class="secondright">
 			奇异博士 Doctor Strange<br>
 			大陆上映时间:2016-11-04<br><br>			斯特兰奇博士是一名外科手术医生，他拥有着高超的智商和精湛的技艺，是医院乃至整个医学界的传奇人物。某一日，斯特兰奇博士遭遇了一场可怕的车祸，尽管保住了双手，但这双手伤痕累累不住颤抖，这也就意味着，他再也不能拿起手术刀，站在无影灯下了。 
 　　		斯特兰奇博士的生活就此失去了意义陷入了绝望之中，他决定远赴尼泊尔，寻找传说中能够治愈他双手的神秘力量。
@@ -111,32 +192,80 @@ table.cl td{
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/caption3.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/caption3.jpg" /></td>
+		<td class="secondright">
 			美国队长3 Captain America: Civil War<br>
 			大陆上映时间:2016-05-06<br><br>	美国队长史蒂夫·罗杰斯带领着全新组建的复仇者联盟，继续维护世界和平。然而，一次执行任务时联盟成员不小心造成大量平民伤亡，从而激发政治压力，政府决定通过一套监管系统来管理和领导复仇者联盟。联盟内部因此分裂为两派：一方由史蒂夫· 罗杰斯领导，他主张维护成员自由，在免受政府干扰的情况下保护世界；另一方则追随托尼·斯塔克，他令人意外地决定支持政府的监管和责任制体系,内战一触即发。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/antman.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/antman.jpg" /></td>
+		<td class="secondright">
 			蚁人 Ant-Man<br>
 			大陆上映时间:2015-10-16<br><br>			前工程师斯科特由于劫富济贫进了监狱，出狱后的他为了争取看望女儿的权利又走上了盗窃之路。没想到一次意外的偷盗事件让他成为了新一代“蚁人”，老蚁人汉克.皮姆博士成为了他的导师，可皮姆博士的女儿却并不看好他。但是危机迫在眉睫，为了对付强大的敌人拯救世界，斯科特不得不叫来自己的一帮狐朋狗友帮助自己完成一个不可能完成的任务。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/avengers2.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/avengers2.jpg" /></td>
+		<td class="secondright">
 			复仇者联盟2：奥创纪元 Avengers: Age of Ultron<br>
 			大陆上映时间:2015-05-12<br><br>		托尼·斯塔克试图重启一个已经废弃的维和项目，不料该项目却成为危机导火索。钢铁侠、美国队长、雷神、绿巨人、黑寡妇和鹰眼，不得不接受终极考验，拯救危在旦夕的地球。神秘反派奥创逐渐崛起，超级英雄们必须重新集结，竭力阻止奥创实施人类灭绝计划。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/yinhehuweidui.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/yinhehuweidui.jpg" /></td>
+		<td class="secondright">
 			银河护卫队 Guardians of the Galaxy<br>
 			大陆上映时间:2014-10-10<br><br>	
 			彼得·奎尔是一名从小被劫持到外太空的地球人，在义父勇度 的培养下成了一个终极混混，自称“星爵”。一次行动中他偷了一块神秘球体，便成为了赏金猎人火箭浣熊、树人格鲁特的绑架目标，而神秘的卡魔拉也对神秘球体势在必得。经过笑料百出的坎坷遭遇，星爵被迫和这三人，以及复仇心切的“毁灭者”德拉克斯组成小分队逃避“指控者”罗南的追杀。然而这个神秘球体拥有无穷的力量，小分队必须团结一致对付罗南，才有可能解救整个银河系，银河护卫队由此诞生。
@@ -144,85 +273,197 @@ table.cl td{
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/caption2.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/caption2.jpg" /></td>
+		<td class="secondright">
 			美国队长2 Captain America: The Winter Soldier<br>
 			大陆上映时间:2014-04-04<br><br>	渐渐习惯了现代生活的美国队长史蒂夫·罗杰斯，在一次行动后隐隐嗅到神盾局内部所弥漫出来的凶险气味。而当得知神盾局正秘密进行的“洞察计划”后，他更为此感到愤怒。某天，神盾局指挥官尼克-法瑞遭到一群武装分子袭击，他拼尽全力将一支U盘交到美国队长手中，这里面藏着该局二战以来最重要且最可怕的秘密。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/ironman3.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/ironman3.jpg" /></td>
+		<td class="secondright">
 			钢铁侠3 Iron Man 3<br>
 			大陆上映时间:2013-05-01<br><br>		自纽约事件以来，托尼·斯塔克为前所未有的焦虑症所困扰。他疯狂投入钢铁侠升级版的研发，为此废寝忘食，甚至忽略了女友佩珀·波茨的感受。与此同时，臭名昭著的恐怖头目曼达林制造了一连串的爆炸袭击事件，托尼当年最忠诚的保镖即在最近的一次袭击中身负重伤。未过多久，托尼、佩珀以及曾与他有过一面之缘的女植物学家玛雅在家中遭到猛烈的炮火袭击，几乎丧命，而这一切似乎都与22年前那名偶然邂逅的科学家阿尔德里奇·基连及其终极生物的研究有关。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/thor2.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/thor2.jpg" /></td>
+		<td class="secondright">
 			雷神2：黑暗世界 Thor: The Dark World<br>
 			大陆上映时间:2013-11-08<br><br>		纽约大战后，雷神索尔将弟弟洛基带回仙宫囚禁起来，此外帮助九大国度平定纷争，威名扶摇直上。虽然父王奥丁劝其及早即位，但索尔念念不忘地球的美丽女孩简·福斯。与此同时，简在和黛西及其助手伊安调查某个区域时意外被神秘物质入侵，却也因此重逢索尔，并随其返回仙宫。令人意想不到的是，藏在简体内的物质来自远古的黑暗精灵玛勒基斯。在“天体汇聚”的时刻再次到来之际，玛勒基斯企图摧毁九大国度，缔造一个全然黑暗的宇宙。 
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/avengers.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/avengers.jpg" /></td>
+		<td class="secondright">
 			复仇者联盟 The Avengers<br>
 			大陆上映时间:2012-05-05<br><br>	一股突如其来的强大邪恶势力对地球造成致命威胁，没有任何一个超级英雄能够单独抵挡。长期致力于保护全球安危的神盾局（SHIELD）感到措手不及，其指挥官“独眼侠”尼克·弗瑞意识到他必须创建一个“史上最强”的联盟组织， 云集各方超级英雄一起发威，才能拯救世界于水深火热，抵御黑暗势力的侵袭。于是由六大超级英雄——“钢铁侠”、“雷神” 、“美国队长”、“绿巨人” 、“黑寡妇”和“鹰眼”组成的“复仇者联盟”应运而生。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/caption.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/caption.jpg" /></td>
+		<td class="secondright">
 			美国队长 Captain America: The First Avenger<br>
 			大陆上映时间:2011-09-09<br><br>	上世纪40年代，纳粹及其邪恶轴心的战火烧遍世界各个角落。居住在布鲁克林的小个子史蒂夫·罗格斯心系国家，一心上阵杀敌，可是糟糕的体格让他始终被征兵办拒之门外。偶然的机会，在德籍科学家厄斯金博士的帮助下，这个小个子男孩得以走入兵营，并接受了博士的试验，化身成为高大健壮、膂力过人的超级战士。与此同时，德国纳粹红骷髅部队的首领约翰·施密特依靠超自然的力量建立起一支超级战队，企图称霸全世界。为了营救好友，史蒂夫以美国队长的形象闯入施密特的军营，正邪两大超级战士的战斗就此展开。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/thor.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/thor.jpg" /></td>
+		<td class="secondright">
 			雷神 Thor<br>
 			大陆上映时间:2011-05-08<br><br>		勇敢善战雷神托尔，作为永恒境界阿斯加德的王位继承人，受人敬仰。然而由于一次鲁莽的行动，险些挑起一场古老的战争，因此被父亲天神奥丁流放到人间。托尔在人间认识了美丽的女科学家珍•福斯特和她的工作伙伴，在他们的帮助下，托尔找到了和自己一起被贬的雷神之锤，但此时的雷神之锤并不属于他。此间，托尔的弟弟洛基为了成为阿斯加德的王，居然联合寒冰巨人，企图在永恒境界掀起一场腥风血雨。为了维持永恒之界的法度，托尔的四位朋友也来到人间，他们决定带托尔返回永恒之境。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/ironman2.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/ironman2.jpg" /></td>
+		<td class="secondright">
 			钢铁侠2 Iron Man 2<br>
 			大陆上映时间:2010-05-07<br><br>	钢铁侠托尼·斯塔克在国会听证上拒绝交出最新技术。与此同时，他发现胸口的微型电弧反应炉正迅速造成血液的钯金属中毒。沮丧的托尼将斯塔克公司的总裁职务交予了秘书波兹，由她全权负责正在进行的纽约斯塔克博览会。波兹从法律部门调来助理娜塔莉照顾托尼。托尼在媒体前的高调亮相引起了其父当年同事的儿子，伊凡的不满。为了实施报复，他子承父业，研制出了一套可与钢铁战衣相媲美的装备。
 		</td>
 	</tr>
 	
 	<tr>
-		<td width=20%><img src="./image/hulk.jpg"></td>
-		<td colspan=2 style="text-align:left;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/hulk.jpg" /></td>
+		<td class="secondright">
 			无敌浩克 The Incredible Hulk<br>
 			大陆上映时间:2008-08-20<br><br>	在高华大学变异的经历总在重演，关于军方通缉的亦围绕在脑海，科学家Bruce Banner就在这样的梦魇下在巴西一边控制着体内的伽马辐射带来的异常，一边努力和纽约的蓝先生寻求解决办法。 他一日不小心割伤手指，让血滴入了汽水瓶，远销到美国的这瓶汽水暴露了他的行踪。美国军方穷尽能力追捕他，还找来求胜心切的英国	霹雳将军Emil Blonsky。被逼到绝路的Bruce变身为绿巨人，Emil和其他军人都大吃一惊。为了亲手擒住Bruce，Emil建议给自己注入可使基因变异的样本。  那边Emil已经被求胜蒙蔽了眼睛，他的寻衅加上美国军方极度想利用Bruce体内异能作为残暴行径的决心，一场大战已经避无可避。
 		</td>
 	</tr>
 	
 	<tr>
-		<td style="border-bottom:0px solid white;" width=20%><img src="./image/ironman.jpg"></td>
-		<td colspan=2 style="text-align:left;border-bottom:0px solid white;">
+		<td class="studio" colspan=2>
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
+	<tr>
+			<td colspan=2 class="marvel">
+			<img src="./image/marvel.gif" />
+			</td>
+	</tr>
+	
+	<tr>
+		<td class="secondleft"><img src="./image/ironman.jpg" /></td>
+		<td class="secondright">
 			钢铁侠 Iron Man<br>
 			大陆上映时间:2008-04-30<br><br>		斯塔克军火公司是美军在全球范围内第一大军火供应商，其新任掌门人托尼•斯塔克风流倜傥，天资聪颖。在前往中东为军方展示新型武器的途中，托尼一众遭到恐怖分子袭击。他被弹片击中险些丧命，在英森博士的帮助下，托尼体内移植了一颗核动力的人工心脏。恐怖分子要求托尼制造强大的杀伤性武器，他和英森虚与委蛇，暗中制造了一套由聚变能源驱动的钢铁盔甲。穿上盔甲托尼大闹恐怖分子的基地，回到美国后又对其进行了改进。却不知，接下来有更为黑暗的阴谋等着他。
 		</td>
 	</tr>
 	
+	<tr>
+		<td class="studio" colspan=2 style="padding-bottom:10px;">
+		<img src="./image/studio.gif" />
+		</td>
+	</tr>
+	
 </table>
-</div>
 
-<div style="background-color:#FFE4B5;height:2px;width:100%;overflow:hidden;"></div>
 
 <div style="background-color:#E82428;height:6.6%;width:100%;text-align:center;">
 	<font size="2" color="white">------------------------------------------</font><br>
-	<font size="2" color="white">部分内容来自网络，解释权归原作者所有</font><br>
+	<font size="2" color="white">部分内容来自网络</font><br>
 	<font size="2" color="white">------------------------------------------</font>
 </div>
 
